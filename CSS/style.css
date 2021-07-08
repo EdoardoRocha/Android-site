@@ -57,6 +57,14 @@ main {
     border-bottom-right-radius: 10px;
 }
 
+ mark {
+     background-color: var(--cor1);
+     padding: 2px;
+ }
+
+
+
+
 main    h1 {
     color: var(--cor3);
     font-family: var(--fonte-android);
