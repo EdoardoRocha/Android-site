@@ -28,17 +28,21 @@
 body {
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
+    
 }
 header {
- background-color: var(--cor3);
+ background-image: linear-gradient(to top, var(--cor3), var(--cor0));
+ text-align: center;
 }
 
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
+    margin-top: 12px;
 }
 header > p {
     color: white;
+    text-align: center;
 }
 
 nav {
@@ -57,13 +61,32 @@ main {
     border-bottom-right-radius: 10px;
 }
 
+.bg-linear {
+    background-image: linear-gradient(to right, var(--cor2), white);
+    padding: 2px;
+}
+
+p {
+    text-align: justify;
+}
+
  mark {
      background-color: var(--cor1);
-     padding: 2px;
+     padding: 1px;
  }
+a {
+    text-decoration: none;
+    color: var(--cor3);
+    
+}
+a.link:hover {
+text-decoration: underline;
+color: var(--cor4);
+}
 
-
-
+strong {
+    color: var(--cor3);
+}
 
 main    h1 {
     color: var(--cor3);
@@ -72,6 +95,12 @@ main    h1 {
 }
 main  h2 {
     font-family: var(--fonte-android);
+    font-weight: bold;
+    
+}
+
+main p {
+    line-height: 2.0em;
 }
 
 main  img {
