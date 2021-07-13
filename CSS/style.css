@@ -47,6 +47,11 @@ header > p {
 
 nav {
     background-color: var(--cor3);
+    padding: 10px;
+}
+nav a {
+    color: var(--cor1);
+    padding: 10px;
 }
 
 main {
