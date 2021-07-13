@@ -132,5 +132,9 @@ main img.pequena {
 footer {
     background-color: var(--cor4);
     color: white;
+padding: 10px;
 
+}
+footer p {
+    text-align: center;
 }
